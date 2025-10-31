@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'Mont Heavy Demo';
+  src: url('font/mont/Mont-HeavyDEMO.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mont Heavy Light Demo';
+  src: url('font/mont/Mont-ExtraLightDEMO.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aroln';
+  src: url('font/Arlon/ArlonSemiBold-DEMO.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Sequel Sans Black Head';
+  src: url('font/Sq_serf/Sequel Sans Black Head.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mont Heavy Demo';
+
+}
+
+.contner {
+  position: relative;
+  background-image: url('Images/highQu.png');
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.topheader {
+  position: absolute;
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 3em;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+
+}
+
+.head {
+  color: #929395;
+  opacity: 1;
+  margin-left: 2em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.head:hover {
+  color: #264a57;
+}
+
+.phoneicon {
+  filter: invert(10%) sepia(30%) saturate(10%) hue-rotate(1000deg);
+  width: 2em;
+  height: 1.6em;
+}
+
+.phoneNo {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 2em;
+  color: #929395;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.phoneNo:hover {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(10%) saturate(1110%) hue-rotate(152deg) brightness(91%) contrast(89%);
+}
+
+
+.contentName {
+  position: absolute;
+  top: 12em;
+  left: 6em;
+  color: #fff;
+  line-height: 0.9;
+}
+
+.fname {
+  font-family: 'Aroln';
+  font-size: 50px;
+}
+
+.lname {
+  font-family: 'Sequel Sans Black Head';
+  font-size: 70px;
+}
+
+.prof {
+  font-family: 'Mont Heavy Light Demo';
+  color: #c2c2c2;
+  font-size: 30px;
+  letter-spacing: 6.9px;
+  line-height: 1.1;
+}
+
+.twobut {
+  font-family: 'Mont Heavy Light Demo';
+  display: flex;
+  gap: 2em;
+  margin-top: 2em;
+  color: #c2c2c2;
+  margin-left: 1em;
+}
+
+.but {
+  border: 2px solid #929395;
+  border-radius: 15px;
+  padding: 8px 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.but:hover {
+  background-color: #264a57;
+  border: 2px solid #264a57;
+}
+
+
+.socalIcon {
+  display: flex;
+  gap: 2em;
+  margin-top: 13em;
+}
+
+.icon {
+  width: 20px;
+  filter: invert(100%) sepia(100%) saturate(50%) hue-rotate(1000deg);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  filter: brightness(0) saturate(100%) invert(29%) sepia(10%) saturate(1110%) hue-rotate(152deg) brightness(91%) contrast(89%);
+}
+
+
+.contner2 {
+  position: relative;
+  background-image: url('Images/AboutPagIMg.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 110vh;
+}
+
+
+.Aboutpage {
+  position: absolute;
+  top: 6em;
+  left: 6em;
+}
+
+.about {
+  width: 130px;
+  font-family: 'Sequel Sans Black Head';
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #FFF;
+  border-bottom: 4px solid #264a57;
+}
+
+.gmail {
+  margin-top: 5px;
+  font-family: 'Mont Heavy Light Demo';
+  color: #c2c2c2;
+}
+
+.textAbout {
+  margin-top: 5em;
+  width: 40%;
+  font-family: 'Mont Heavy Light Demo';
+  color: #c2c2c2;
+}
+
+.location {
+  position: absolute;
+  top: 34em;
+  color: #c2c2c2;
+}
+
+
+.contner3 {
+  background-image: url('Images/samiphotoweb.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  color: #c2c2c2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.skills {
+  margin: 5em 3em;
+}
+
+.titleofskill {
+  display: inline-flex;
+  text-transform: uppercase;
+  border-bottom: 4px solid #264a57;
+  color: #929395;
+  margin-bottom: 2em;
+}
+
+.softskills {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.iconandline {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.picon {
+  width: 2em;
+}
+
+.line {
+  width: 60%;
+  margin-bottom: 4px;
+}
+
+.ph {
+  font-size: 10px;
+  color: #929395;
+  margin-bottom: 4px;
+}
+
+.program{
+  margin-top: 2.5em;
+}
+
+.lineph{
+  margin-left: 10px;
+}
+.lineai{
+  margin-left: 13px;
+}
+.linein{
+  margin-left: 19px;
+}
+
+.linec{
+  width: 55%;
+  margin-left: 9px;
+}
+.lineja{
+  width: 55%;
+  margin-left: 2px;
+}
+
+.lineht{
+  width: 53%;
+  margin-left: 0;
+}
+
+.personal{
+  margin-top: 2.5em;
+}
+
+.what{
+  margin-top: 3.5em;
+  
+}
+
+.te{
+  font-size: 15px;
+  line-height: 2;
+}
+
+
+.Portfolio{
+  background-color: #121418;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Aroln;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fontport{
+  color: #c2c2c2;
+  font-size: 25px;
+  margin-top: 3em;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #264a57;
+  padding-bottom: 5px;
+}
+
+
+.PorImg{
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+
+.Imgs{
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.Imgs:hover{
+  animation: pulse 1.4s ease-in-out;
+}
+
+@keyframes pulse{
+  0%, 100%{
+    transform: scale(1);
+  } 
+  50%{
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 792">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #939393;
+        font-family: Roboto-Black, Roboto;
+        font-size: 119px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #939393;
+        stroke-miterlimit: 10;
+        stroke-width: 11px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="130.68" y="146.84" width="368.28" height="356.47" rx="28.08" ry="28.08"/>
+  <text class="cls-1" transform="translate(138.03 304.83)"><tspan x="0" y="0">Js/css</tspan></text>
+  <text class="cls-1" transform="translate(154.23 436.52)"><tspan class="cls-3" x="0" y="0">H</tspan><tspan x="81.93" y="0">TML</tspan></text>
+</svg>
